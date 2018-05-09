@@ -14,5 +14,6 @@ then
     npm test;
 else
     echo "### test only: (branch = $BRANCH)"
+    npm run build
     npm test;
 fi
